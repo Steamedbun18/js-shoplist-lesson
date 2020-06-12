@@ -62,8 +62,8 @@ function someListener(event){
         console.log(element.previousSibling);
         element.parentNode.remove();
         if (ul.children.length === 0){
-        	alert("You've completed your list!")
-        	window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        	alert("You've completed your list!");
+        	window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         }
     }
 }
